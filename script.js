@@ -5,7 +5,8 @@
 const Choices = ['rock', 'paper', 'scissors'];
 function getComputerChoice() {
     getComputerChoice = Math.floor(Math.random() * 3);
-    return(getComputerChoice);
+    let computerChoice = choices[getComputerChoice]
+    return(computerChoice);
 }
 function playRound(playerChoice, computerChoice){
     playerChoice = Choices[0];
